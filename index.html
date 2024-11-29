@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>Weather App</h1>
+        <label for="cityInput">Enter city name:</label>
+        <input type="text" id="cityInput" placeholder="City name" />
+        <button id="currentWeatherBtn">Get Current Weather</button>
+        <button id="forecastBtn">Get Weather Forecast</button>
+        <button id="coordinatesBtn">Get City Coordinates</button>
+        <button id="saveToFileBtn">Save Result to File</button>
+        <input type="file" id="fileInput" style="display: none;" />
+        <button id="openFromFileBtn">Open Result from File</button>
+        <textarea id="resultArea" readonly placeholder="Results will be displayed here..."></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
